@@ -1,0 +1,12 @@
+/target
+/target/*.log
+
+Cargo.lock
+**/Cargo.toml.map
+
+.DS_Store*
+.cargo_home
+*.so
+
+.*~
+.core
