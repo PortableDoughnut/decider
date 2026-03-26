@@ -17,7 +17,7 @@ fn main() {
     }
 }
 
-//I'm using a set so I don't hae to import random & because it's quick
+//I'm using a set so I don't have to import random & because it's quick
 fn input_loop() -> HashSet<String> {
     let mut options = HashSet::new();
     loop {
