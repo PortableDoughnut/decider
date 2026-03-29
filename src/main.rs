@@ -28,8 +28,10 @@ fn input_loop() -> HashSet<String> {
             .expect("Failed to read line");
         let trimmed_input: String = input.trim().to_string();
 
-        //TODO: Cover the case of immedite exit
         if trimmed_input.contains("exit") {
+            if options.is_empty() {
+                options.insert("".to_string());
+            }
             println!();
             thread::sleep(Duration::from_secs(2));
             return options;
