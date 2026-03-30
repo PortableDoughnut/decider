@@ -1,4 +1,4 @@
-//Code by Gwen Thelin
+//Code by Gwen Thelin <3
 use crossterm::event::{self, Event, KeyCode};
 use crossterm::{cursor, queue};
 use std::collections::HashSet;
