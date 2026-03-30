@@ -6,6 +6,7 @@ use std::io;
 use std::io::Write;
 use std::thread;
 use std::time::Duration;
+//Add to this as needed
 
 struct SessionData {
     is_empty: bool,
