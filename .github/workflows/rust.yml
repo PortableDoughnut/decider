@@ -19,32 +19,32 @@ jobs:
           # Linux (GNU)
           - os: ubuntu-latest
             target: x86_64-unknown-linux-gnu
-            artifact_name: my-cli
-            asset_name: my-cli-linux-x86_64
+            artifact_name: decider
+            asset_name: decider-linux-x86_64
 
           # Linux (musl — fully static, great for distro-agnostic binaries)
           - os: ubuntu-latest
             target: x86_64-unknown-linux-musl
-            artifact_name: my-cli
-            asset_name: my-cli-linux-x86_64-musl
+            artifact_name: decider
+            asset_name: decider-linux-x86_64-musl
 
           # macOS (Intel)
           - os: macos-latest
             target: x86_64-apple-darwin
-            artifact_name: my-cli
-            asset_name: my-cli-macos-x86_64
+            artifact_name: decider
+            asset_name: decider-macos-x86_64
 
           # macOS (Apple Silicon)
           - os: macos-latest
             target: aarch64-apple-darwin
-            artifact_name: my-cli
-            asset_name: my-cli-macos-aarch64
+            artifact_name: decider
+            asset_name: decider-macos-aarch64
 
           # Windows
           - os: windows-latest
             target: x86_64-pc-windows-msvc
-            artifact_name: my-cli.exe
-            asset_name: my-cli-windows-x86_64.exe
+            artifact_name: diecider.exe
+            asset_name: decider-windows-x86_64.exe
 
     steps:
       - name: Checkout
